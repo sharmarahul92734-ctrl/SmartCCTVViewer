@@ -51,7 +51,6 @@ class MainActivity : Activity() {
             View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
         loadConfig()
         showHome()
-        if (config.username.isNotBlank()) connectLayout()
     }
 
     private fun loadConfig() {
